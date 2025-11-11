@@ -1,0 +1,23 @@
+{
+  "resolution": 2,
+  "model": "freetimegs",
+  "scaling_lr": 0.0015,
+  "preprocesspoints": 0,
+  "test_iteration": 25000,
+  "duration": 35,
+  "rdpip": "train_freetimegs",
+  "rgbfunction": "none",
+  "lambda_reg": 0.003,
+  "relocate_every": 500,
+  "relocate_grad_w": 0.5,
+  "relocate_opa_w": 0.5,
+  "relocate_opa_th": 0.2,
+  "desicnt": 115,
+  "densify_grad_threshold": 0.00012,
+  "densify_from_iter": 500,
+  "densify_until_iter": 12000,
+  "densification_interval": 100,
+  "feature_lr": 0.004,
+  "featuret_lr": 0.0025,
+  "_comment": "Optimized for dynamic clarity: reduced lambda_reg (0.01->0.003), increased time feature lr (0.001->0.0025), reduced densify threshold (0.0002->0.00012), extended densification (9000->12000), reduced duration (50->35) for finer temporal resolution"
+}

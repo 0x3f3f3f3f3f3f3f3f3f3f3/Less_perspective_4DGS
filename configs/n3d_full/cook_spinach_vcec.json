@@ -1,0 +1,20 @@
+{
+  "resolution": 2,
+  "model": "ours_full",
+  "scaling_lr": 0.001,
+  "preprocesspoints": 3,
+  "test_iteration": 25000,
+  "duration": 50,
+  "rdpip": "train_ours_full",
+
+  "_comment_vcec": "VCEC Loss Configuration",
+  "use_mer": true,
+  "use_vcec": true,
+  "lambda_mer": 0.05,
+  "lambda_vcec": 0.1,
+  "vcec_tau": 4.0,
+  "mer_start_iter": 0,
+  "mer_to_vcec_iter": 5000,
+  "vcec_start_iter": 5000,
+  "vcec_delta_t": 1.0
+}
